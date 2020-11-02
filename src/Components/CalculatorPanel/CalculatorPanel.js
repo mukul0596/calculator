@@ -6,7 +6,7 @@ class CalculatorPanel extends React.Component {
     state = {
         input: '',
         expressionArray: [],
-        result: '456'
+        result: ''
     }
 
     componentDidMount() {
