@@ -1,0 +1,31 @@
+.ResultPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #BC4639;
+    font-size: 1.7rem;
+}
+
+.ResultPanel h4 {
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.ResultPanel .Calculation {
+    margin: 6px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .ResultPanel {
+        font-size: 1.1rem;
+    }
+
+    .ResultPanel h4 {
+        margin-bottom: 12px;
+    }
+
+    .ResultPanel .Calculation {
+        margin: 2px 0;
+    }
+}

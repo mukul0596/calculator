@@ -1,0 +1,89 @@
+.CalculatorPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.CalculatorPanel .Expression {
+    width: 50%;
+    text-align: end;
+    color: #EAE7DC;
+    margin-bottom: 64px;
+}
+
+.CalculatorPanel input {
+    width: 50%;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: end;
+    color: #EAE7DC;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+.CalculatorPanel .OperationKeys {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 0;
+}
+
+.CalculatorPanel .OperationKey {
+    width: 20%;
+    background: #EAE7DC;
+    text-align: center;
+    color: #BC4639;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.CalculatorPanel .FullWidth {
+    width: 50%;
+}
+
+.CalculatorPanel .Result {
+    width: 50%;
+    text-align: center;
+    color: #EAE7DC;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 600px) {
+    .CalculatorPanel {
+        padding-top: 40px;
+        box-sizing: border-box;
+        font-size: 1.25rem;
+    }
+
+    .CalculatorPanel .Expression {
+        width: 60%;
+        margin-bottom: 24px;
+    }
+
+    .CalculatorPanel input {
+        width: 60%;
+        padding: 6px 8px;
+    }
+
+    .CalculatorPanel .OperationKeys {
+        width: 60%;
+        margin: 12px 0;
+    }
+
+    .CalculatorPanel .OperationKey {
+        padding: 4px 0;
+    }
+    .CalculatorPanel .FullWidth {
+        width: 60%;
+    }
+    .CalculatorPanel .Result {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+}
